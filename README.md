@@ -50,7 +50,9 @@ El repositorio incluye capturas de:
 
 ## ⭐ Valoración Personal
 
-Esta práctica ha resultado muy enriquecedora, permitiéndome resolver retos reales de diseño web. Considero que este proyecto sienta una base sólida que podré seguir evolucionando para plasmar ideas personales. Gracias a la formación recibida en clase y a los conocimientos que sigo adquiriendo en la asignatura, me siento capacitado para desarrollar páginas web con un acabado profesional.
+Esta práctica ha resultado muy enriquecedora, ya que siempre había tenido la motivación de crear una página propia, pero nunca había tenido ni el tiempo ni los conocimientos necesarios para hacerlo. Esta experiencia me ha permitido enfrentarme a retos reales de diseño web y, sobre todo, a la estructuración desde cero de un contenido que no venía definido por la guía de la práctica.
+
+Considero que este proyecto establece una base sólida que podré seguir evolucionando para plasmar ideas personales. Gracias a la formación recibida en clase, a los conocimientos que sigo adquiriendo en la asignatura y al uso sensato de herramientas de IA —que me han ayudado especialmente en aspectos de responsividad o en la generación repetitiva de elementos—, ahora me siento capacitado para desarrollar páginas web con un acabado profesional.
 
 ## 👤 Autor
 
