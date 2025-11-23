@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --color-fondo: linear-gradient(135deg, #ffb1ab 0%, #d4bfff 50%, #abd4ff 100%);
+  --color-texto: #1d1d1f;
+  --color-boton: #007bffea;
+  --color-boton-hover: #0070e8;
+  --color-boton-mas-info: #dcdce0;
+  --color-boton-discotecas: #30b351;
+  --color-boton-discotecas-hover: #28a745;
+  --color-boton-mas-info-hover: #c6c6c6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--color-fondo);
+  background-attachment: fixed;
+  color: var(--color-texto);
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.boton-navegacion {
+  background-color: #008cff;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  border: none;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.2);
+  font-size: 16px;
+
+}
+
+.boton-navegacion :hover{
+  background-color: #003cff;
+
+}
+
+/*CABECERA*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  padding: 20px 15%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1d1d1f;
+}
+ 
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.boton-navegacion2 {
+  background-color: rgba(37, 37, 37, 0.05);
+  color: #007aff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 999px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.boton-navegacion2:hover {
+  background-color: #00000018;
+}
+
+/*CABECERA*/
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 15%;
+  gap: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+}
+
+.footer .copy {
+  color: #6e6e73;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer address {
+color: #6e6e73;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 1px; 
+  margin-right: auto;
+}
+.footer .boton-navegacion {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #007aff;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.footer .boton-navegacion:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: none;
+  box-shadow: none;
+}
+

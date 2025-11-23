@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Access Barcelona - Alta</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/alta.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home">night access barcelona</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="boton-navegacion2">home</a></li>
+                <li><a href="../paginas/detalle.html" class="boton-navegacion2">eventos</a></li>
+                <li><a href="../index.html" class="boton-navegacion2">djs</a></li>
+                <li><a href="../paginas/listado-clubes.html" class="boton-navegacion2">discotecas</a></li>
+                <li><a href="../index.html" class="boton-navegacion2">playlist</a></li>
+                <li><a href="../paginas/alta.html" class="boton-navegacion2">alta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <div class="titulo">
+                <h2>Formulario de Alta</h2>
+            </div>
+
+            <div class="alta">
+                <form action="/procesar-alta" method="GET" class="formulario-alta">
+                    <div class="recuadros">
+                        <label>Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="recuadros">
+                        <label class="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="recuadros">
+                        <label class="telefono">Teléfono</label>
+                        <input type="number" id="telefono" name="telefono" min="600000000" max="999999999">
+                    </div>
+                    <div class="recuadros">
+                        <label class="fecha_nacimiento">Fecha de Nacimiento</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                    </div>
+                    <div class="recuadros">
+                        <label class="club_fav">Club Favorito</label>
+                        <select id="club_fav" name="club_fav">
+                            <option value="" disabled selected>Selecciona un club</option>
+                            <option value="shoko">Shoko</option>
+                            <option value="sutton">Sutton</option>
+                            <option value="twenties">Twenties</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="recuadros">
+                        <p>¿Quieres recibir ofertas VIP?</p>
+                        <input type="radio" id="si_ofertas" name="ofertas" value="si" checked>
+                        <label for="si_ofertas" class="si_ofertas" style="display:inline;">Sí</label>
+                        
+                        <input type="radio" id="no_ofertas" name="ofertas" value="no">
+                        <label for="no_ofertas" class="no_ofertas" style="display:inline;">No</label>
+                    </div>
+                    
+                    <div class="recuadros">
+                        <label class="sugerencia">Sugerencia</label>
+                        <textarea id="sugerencia" name="sugerencia" rows="4" placeholder="Comentario..."></textarea>
+                    </div>    
+
+                    <div class="recuadros" style="text-align: left;">
+                        <input type="checkbox" id="condiciones" name="condiciones" required>
+                        <label for="condiciones" style="display:inline; font-weight: 400;">Acepto unirme a la lista de Night Access</label>
+                    </div>
+
+                    <button type="submit" class="boton-navegacion">Enviar Petición</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="copy">© 2025 nightaccessbarcelona</p>
+        <address>Carrer d'Aiguablava, 121, Nou Barris, 08033 Barcelona</address>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/nightaccessbarcelona" class="boton-navegacion">instagram</a>            
+            <a href="https://www.tiktok.com/@nightaccessbarcelona" class="boton-navegacion">tiktok</a>
+        </div>
+    </footer>
+</body>
+
+</html>

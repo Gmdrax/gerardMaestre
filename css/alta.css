@@ -1,0 +1,84 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 15%;
+}
+
+.alta {
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 30px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.alta label {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.recuadros {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #1d1d1f;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.recuadros input[type='text'],
+.recuadros input[type='email'],
+.recuadros input[type='number'],
+.recuadros input[type='date'],
+.recuadros select,
+.recuadros textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.alta button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: #007aff;
+    color: white;
+    font-weight: bold;
+}
+
+.alta button:hover {
+    background-color: #005ecb;
+}
